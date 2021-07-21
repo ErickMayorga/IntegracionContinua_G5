@@ -37,5 +37,9 @@ public class CalculatorTest {
         System.out.println("Test 4");
         assertEquals(8,c.multiplication(4,2));
     }
-
+    @Test
+    public void given_two_integers_when_potentiation_then_ok(){
+        System.out.println("Test 5");
+        assertEquals(16, c.potentiation(8,2));
+    }
 }
