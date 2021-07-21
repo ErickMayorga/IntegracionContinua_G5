@@ -40,6 +40,6 @@ public class CalculatorTest {
     @Test
     public void given_two_integers_when_potentiation_then_ok(){
         System.out.println("Test 5");
-        assertEquals(16, c.potentiation(8,2));
+        assertEquals(64, c.potentiation(8,2));
     }
 }
